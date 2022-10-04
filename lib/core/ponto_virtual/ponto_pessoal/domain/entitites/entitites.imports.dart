@@ -1,0 +1,1 @@
+export 'batida.entity.dart';

@@ -1,0 +1,10 @@
+export 'card_batida.widget.dart'; 
+export 'horario_batida.widget.dart'; 
+export 'indicador_evento.widget.dart'; 
+export 'indicador_offline.widget.dart'; 
+export 'indicador_sync.widget.dart'; 
+export 'indicador_tipo_batida.widget.dart'; 
+export 'lista_batidas.widget.dart'; 
+export 'local_batida.widget.dart'; 
+export 'tipo_evento.widget.dart'; 
+export 'widgets.imports.dart'; 

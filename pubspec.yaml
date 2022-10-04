@@ -1,0 +1,142 @@
+name: ptem2
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 0.1.6
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: 3.26.0
+  custom_components: 
+    path: ../1packages/custom_packages/custom_components
+  custom_app: 
+    path: ../1packages/custom_packages/custom_app
+  enum_from_json: 
+    path: ../1packages/custom_packages/enum_from_json
+  dartz: 0.9.2
+  ntp: ^1.0.7
+  time: ^2.1.0
+  graphql: 5.0.0
+  graphql_flutter: 5.0.0
+  flutter_secure_storage: ^3.3.1+1
+  # geolocator: 7.6.2 #STABLE
+  geolocator: 7.0.3
+  google_maps_flutter: ^0.5.21
+  # numeric_keyboard: 1.0.0
+  local_auth: 1.1.7 
+  # connectivity: ^3.0.6
+  connectivity_plus: 1.0.1
+  # data_connection_checker: ^0.3.4
+  internet_connection_checker: ^0.0.1+3
+  shared_preferences: 2.0.7
+  package_info_plus: 1.2.1
+  numeric_keyboard: 
+    path: ../1packages/numeric_keyboard
+  # flutter_screenutil: 5.0.1
+  flutter_screenutil: ^2.3.1
+  device_info_plus: 3.1.0
+  new_version: 0.3.0
+  qr_code_scanner: ^0.3.0
+  encrypt: ^5.0.1
+  dio: ^4.0.1
+  flutter_spinkit: 5.1.0
+  flutter_recognize:
+    path: ../1packages/flutter_recognize
+  camera: ^0.9.4+21
+
+  #firebase
+  firebase_messaging: 10.0.7 #10.0.7
+  firebase_analytics: 8.3.0
+  firebase_crashlytics: ^2.2.0
+  firebase_performance: ^0.7.0+8
+  cloud_firestore: 2.5.2 #^2.4.0
+  firebase_core: ^1.5.0
+  firebase_remote_config: 0.10.0+4
+  firebase_database: 8.0.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/assets_ptem2/mobilefacenet.tflite
+    - assets/assets_ptem2/ml/
+    - assets/assets_ptem2/images/
+    - assets/assets_ptem2/images/logo.png
+    - assets/assets_ptem2/images/user.png
+    - assets/assets_ptem2/images/logo_white.png
+    - assets/assets_ptem2/images/avatar/user1.jpg
+    - assets/assets_ptem2/images/logo_desabilitado3.png
+    - assets/assets_ptem2/images/logo_bottom_bar.png
+    - assets/svg/
+
+  fonts:
+    - family: Icomoon
+      fonts:
+        - asset: assets/assets_ptem2/fonts/IcoMoon-Free.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/assets_ptem2/fonts/Montserrat-Regular.ttf
+        - asset: assets/assets_ptem2/fonts/Montserrat-Bold.ttf
+          weight: 100
+
+    - family: SourceSansPro
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/SourceSansPro-Regular.ttf 
+        # - asset: assets/assets_ptem2/fonts/SourceSansPro-black.ttf  
+          # weight: 300
+
+
+    - family: OpenSans    
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/OpenSans-Regular.ttf
+        - asset: assets/assets_ptem2/fonts/OpenSans-Bold.ttf      
+
+    - family: Alata 
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/Alata-Regular.ttf        
+
+    - family: VarelaRound
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/VarelaRound-Regular.ttf 
+
+    - family: Nexa
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/Nexa-Bold.otf 
+
+    #-------- NUNITO --------
+
+    - family: NunitoBlack
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/Nunito/Nunito-Black.ttf
+
+    - family: NunitoExtraBold
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/Nunito/Nunito-ExtraBold.ttf
+        
+    - family: Nunito
+      fonts: 
+        - asset: assets/assets_ptem2/fonts/Nunito/Nunito-Light.ttf

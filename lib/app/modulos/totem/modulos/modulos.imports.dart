@@ -1,0 +1,11 @@
+export 'modulos.imports.dart'; 
+export './activate/activate.imports.dart'; 
+export './aviso_batida_duplicada/aviso_batida_duplicada.imports.dart'; 
+export './confirma_batida/confirma_batida.imports.dart'; 
+export './initializing/initializing.imports.dart'; 
+export './keyboard/keyboard.imports.dart'; 
+export './menu/menu.imports.dart'; 
+export './qr_page/qr_page.imports.dart'; 
+export './recognition_auth/recognition_auth.imports.dart'; 
+export './recognition_menu/recognition_menu.imports.dart'; 
+export './sync_list/sync_list.imports.dart'; 
